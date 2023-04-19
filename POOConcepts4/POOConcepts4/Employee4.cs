@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace POOConcepts4
+﻿namespace POOConcepts4
 {
-    public abstract class Employee4
+    public abstract class Employee4 : IPay4
     {
         public int Id { get; set; }
 
